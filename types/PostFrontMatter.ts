@@ -1,0 +1,24 @@
+export type PostFrontMatter = {
+  title: string;
+  date: string;
+  tags: string[];
+  toc?: boolean;
+  categories: string[];
+  lastmod?: string;
+  draft?: boolean;
+  summary?: string;
+  images?: string[];
+  authors?: string[];
+  layout?: string;
+  canonicalUrl?: string;
+  slug: string;
+  fileName: string;
+  showAffiliate?: boolean;
+  affiliateTitle?: string;  
+  affiliateImage?: string;  
+  affiliateRating?: number; 
+  affiliateButtonText?: string; 
+  affiliateButtonUrl?: string; 
+  affiliateImages?: string[]; 
+  affiliateLinks?: string[];
+};
